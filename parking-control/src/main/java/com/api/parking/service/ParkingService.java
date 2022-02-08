@@ -10,6 +10,17 @@ import com.api.parking.repository.ParkingRepository;
 
 public class ParkingService {
 
-	@Autowired
-	ParkingRepository parkigrepository;
+	
+	final ParkingRepository parkigrepository;
+
+	public ParkingService(ParkingRepository parkigrepository) {
+		super();
+		this.parkigrepository = parkigrepository;
+	}
+	
+	
+	
+	
+	
+	
 }
